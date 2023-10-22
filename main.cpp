@@ -1,9 +1,9 @@
 /**
  * @file main.cpp
- * @author your name (you@domain.com)
- * @brief 
+ * @author Aiden Manansala
+ * @brief Main file to show rational class implementation 
  * @version 0.1
- * @date 
+ * @date 10-17-2023 
  * 
  */
 #include <iostream>
