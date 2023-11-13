@@ -7,19 +7,20 @@
  * 
  */
 #include <iostream>
-#include "Rational.h"
+#include "rational.h"
 
 using std::cout;
 using std::endl;
 
 int main()
-{
+{/*
+    */
     Rational num0;
     cout <<"num0 = "<<num0<<endl;
 
     Rational num1(12,16);
     cout <<"num1 = "<<num1<<endl;
-
+    /*
     Rational num2;
     num2=num1;//assignment
     cout <<"num2 = "<<num2<<endl;
@@ -57,6 +58,6 @@ int main()
     cout << "(" << num1 << ") / (" << num2 << ") = " << num10 << endl;
     Rational num11 = num3 + num1 * num2;
     cout << num3 << " + " << num1 << "*" << num2 << " = " << num11 << "\n\n";
-
+    */
     return 0;
 }
