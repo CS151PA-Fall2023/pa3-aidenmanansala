@@ -13,14 +13,13 @@ using std::cout;
 using std::endl;
 
 int main()
-{/*
-    */
+{
     Rational num0;
     cout <<"num0 = "<<num0<<endl;
 
     Rational num1(12,16);
     cout <<"num1 = "<<num1<<endl;
-    /*
+    
     Rational num2;
     num2=num1;//assignment
     cout <<"num2 = "<<num2<<endl;
@@ -50,14 +49,18 @@ int main()
     
     Rational num7 = num1 + num2;
     cout << num1 << " + " << num2 << " = " << num7 << endl;
+    
     Rational num8 = num1 - num2;
     cout << num1 << " - " << num2 << " = " << num8 << endl;
+    
     Rational num9 = num1 * num2;
     cout << num1 << " * " << num2 << " = " << num9 << endl;
+    
     Rational num10 = num1/num2;
     cout << "(" << num1 << ") / (" << num2 << ") = " << num10 << endl;
+    
     Rational num11 = num3 + num1 * num2;
     cout << num3 << " + " << num1 << "*" << num2 << " = " << num11 << "\n\n";
-    */
+    
     return 0;
 }
